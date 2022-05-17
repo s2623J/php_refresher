@@ -1,0 +1,16 @@
+
+    Notes:
+    ------
+    Definitions:
+        Class:          Blueprint for an object 
+        Property:       Variable of an object 
+        Method:         Function of an object 
+        Instantiation:  Object creation from a class
+        Encapsulation:  Bundling properties with methods
+        Inheritance:    Reusing code from other classes via "extends"
+        Polymorphism:   Changing an object without having to change the class via properties, or "extends"
+
+    Classes:
+        $this:  Can only be used within instantiated objects
+        
+            
