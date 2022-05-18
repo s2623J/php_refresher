@@ -13,13 +13,35 @@
     Classes:
         $this:          Can only be used within instantiated objects
         constructors:   Execute immediately on instantiation and set initial values
+
         Visibility:
             Private Variables - Only visible within the class 
             Public Variables - Visible inside and out of the class
             Protected Variables - Only visible within the class AND within any child 
                 classes that extend that class
             Final Methods - Cannot be overridden by children (imutable)
+
         Inheritance:
             Classes that have been extended can have their properties and methods overridden.
+
+        Static Methods and Namespaces:
+            Static properties and methods were used before namespaces & essentially used classes 
+                as namespaces.
+
+        Namespaces:
+            Safe way to isolate libraries/blocks of code (ie. can prevent two libraries with "db" 
+                classes from conlicting with each other)
+            Must be declared at the TOP of the file. Everything within that file would then be 
+                isolated within that file namespace
+            Ultimately helps with eliminating the need to create overly convoluted class names that 
+                do not conflict with each other
+
+        Autoload:
+            "spl_autoload_register('autoload')" can be used to reference a function that will 
+                dynamically load largge numbers of classes. (ie. See examples_2.php)
+            
+
+            
+
 
         
