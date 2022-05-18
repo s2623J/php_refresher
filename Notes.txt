@@ -28,32 +28,32 @@
             Static properties and methods were used before namespaces & essentially used classes 
                 as namespaces.
 
-        Namespaces:
-            Safe way to isolate libraries/blocks of code (ie. can prevent two libraries with "db" 
-                classes from conlicting with each other)
-            Must be declared at the TOP of the file. Everything within that file would then be 
-                isolated within that file namespace
-            Ultimately helps with eliminating the need to create overly convoluted class names that 
-                do not conflict with each other
+    Namespaces:
+        Safe way to isolate libraries/blocks of code (ie. can prevent two libraries with "db" 
+            classes from conlicting with each other)
+        Must be declared at the TOP of the file. Everything within that file would then be 
+            isolated within that file namespace
+        Ultimately helps with eliminating the need to create overly convoluted class names that 
+            do not conflict with each other
 
-        Autoload:
-            "spl_autoload_register('autoload')" can be used to reference a function that will 
-                dynamically load large numbers of classes. (ie. See examples_2.php)
-            
-        Interfaces:
-            Enforce a MINIMUM of specified properties and methods within an implemented class 
+    Autoload:
+        "spl_autoload_register('autoload')" can be used to reference a function that will 
+            dynamically load large numbers of classes. (ie. See examples_2.php)
+        
+    Interfaces:
+        Enforce a MINIMUM of specified properties and methods within an implemented class 
 
-        MVC:
-            Model:      Construct/data-type containing the data.
-            View:       Visual display - usually template-driven
-            Controller: 
-                        Executes business logic
-                        Manipulates models
-                        Receives input from User - usually via View
-                        Routes to and from different views
-            MVC Barebones Prototyping Framework: 
-                        https://github.com/panique/mini
-            
+    MVC:
+        Model:      Construct/data-type containing the data.
+        View:       Visual display - usually template-driven
+        Controller: 
+                    Executes business logic
+                    Manipulates models
+                    Receives input from User - usually via View
+                    Routes to and from different views
+        MVC Barebones Prototyping Framework: 
+                    https://github.com/panique/mini
+        
 
 
 
