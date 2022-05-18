@@ -38,13 +38,24 @@
 
         Autoload:
             "spl_autoload_register('autoload')" can be used to reference a function that will 
-                dynamically load largge numbers of classes. (ie. See examples_2.php)
+                dynamically load large numbers of classes. (ie. See examples_2.php)
             
         Interfaces:
             Enforce a MINIMUM of specified properties and methods within an implemented class 
 
         MVC:
+            Model:      Construct/data-type containing the data.
+            View:       Visual display - usually template-driven
+            Controller: 
+                        Executes business logic
+                        Manipulates models
+                        Receives input from User - usually via View
+                        Routes to and from different views
+            MVC Barebones Prototyping Framework: 
+                        https://github.com/panique/mini
             
+
+
 
             
 

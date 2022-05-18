@@ -1,4 +1,4 @@
-#   PHP OOP Refresher
+#   PHP OOP & MVC Refresher
 
 A simple refresher course on PHP
 
