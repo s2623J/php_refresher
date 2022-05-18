@@ -40,6 +40,11 @@
             "spl_autoload_register('autoload')" can be used to reference a function that will 
                 dynamically load largge numbers of classes. (ie. See examples_2.php)
             
+        Interfaces:
+            Enforce a MINIMUM of specified properties and methods within an implemented class 
+
+        MVC:
+            
 
             
 
