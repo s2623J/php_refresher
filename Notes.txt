@@ -11,6 +11,15 @@
         Polymorphism:   Changing an object without having to change the class via properties, or "extends"
 
     Classes:
-        $this:  Can only be used within instantiated objects
+        $this:          Can only be used within instantiated objects
+        constructors:   Execute immediately on instantiation and set initial values
+        Visibility:
+            Private Variables - Only visible within the class 
+            Public Variables - Visible inside and out of the class
+            Protected Variables - Only visible within the class AND within any child 
+                classes that extend that class
+            Final Methods - Cannot be overridden by children (imutable)
+        Inheritance:
+            Classes that have been extended can have their properties and methods overridden.
+
         
-            
