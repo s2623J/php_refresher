@@ -11,6 +11,7 @@
         Polymorphism:   Changing an object without having to change the class via properties, or "extends"
 
     Classes:
+        Multiple files can use the same classes
         $this:          Can only be used within instantiated objects
         constructors:   Execute immediately on instantiation and set initial values
 
@@ -29,6 +30,7 @@
                 as namespaces.
 
     Namespaces:
+        Multiple files can use the same namespace
         Safe way to isolate libraries/blocks of code (ie. can prevent two libraries with "db" 
             classes from conlicting with each other)
         Must be declared at the TOP of the file. Everything within that file would then be 
@@ -54,6 +56,14 @@
         MVC Barebones Prototyping Framework: 
                     https://github.com/panique/mini
         
+    App Building Conventions:
+        Database:
+            3rd Normal Form - No repeated data 
+            3 Tables:
+                Object Tables:      Store data as objects
+                Meta Tables:        Data that describes the actual data 
+                Relationship Table: Ties two objects together
+            
 
 
 
